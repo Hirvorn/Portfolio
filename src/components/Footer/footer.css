@@ -1,0 +1,18 @@
+.footer {
+    width: 100vw;
+    height: 4rem;
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+    font-size: small;
+}
+
+.footer>.tailored {
+    padding-left: 2rem;
+}
+
+.footer>.copyright {
+    padding-right: 2rem;
+}

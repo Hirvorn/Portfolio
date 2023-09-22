@@ -1,0 +1,62 @@
+#wrapper {
+    position: relative;
+    background-color: var(--primary-color);
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+}
+
+.lines {
+    position: absolute;
+    top: 81.5px;
+    margin: auto;
+    width: 100%;
+}
+
+.flower-main {
+    position: absolute;
+    top: 500px;
+    left: 563px;
+}
+
+.flower-1 {
+    position: absolute;
+    top: 187px;
+    left: 214px;
+}
+
+.flower-2 {
+    position: absolute;
+    top: 617px;
+    left: 1105px;
+}
+
+.flower-3 {
+    position: absolute;
+    top: 815px;
+    left: 960px;
+}
+
+.flower-4 {
+    position: absolute;
+    top: 116px;
+    left: 519px;
+}
+
+.flower-5 {
+    position: absolute;
+    top: 678px;
+    left: 325px;
+}
+
+.flower-6 {
+    position: absolute;
+    top: 267px;
+    left: 876px;
+}
+
+.small-circles {
+    position: absolute;
+    top: 48px;
+    left: 259px;
+}
