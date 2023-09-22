@@ -41,6 +41,12 @@
     cursor: pointer;
 }
 
+.navbar>.contact-me>.chat {
+    padding-right: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+
 .navbar>.contact-me>span {
     font-size: small;
 }

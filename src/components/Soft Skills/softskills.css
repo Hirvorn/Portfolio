@@ -1,9 +1,9 @@
-#skills {
-    background-color: var(--secondary-color);
+#soft-skills {
+    background-color: var(--primary-color);
     padding-bottom: 3rem;
 }
 
-#skills>.container {
+#soft-skills>.container {
     overflow: hidden;
     width: 100vw;
     display: flex;
@@ -16,14 +16,14 @@
 }
 
 
-.skill-title {
+#soft-skills>.container>.title {
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
 }
 
-.skill-desc {
+#soft-skills>.container>.description {
     height: 100%;
     font-size: 0.9rem;
     font-weight: 400;
@@ -31,7 +31,7 @@
     padding: 0 2rem;
 }
 
-.skill-bars {
+#soft-skills>.container>.bars {
     width: 100vw;
     max-width: 100%;
     text-align: left;

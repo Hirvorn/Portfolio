@@ -10,8 +10,7 @@ const Intro = () => {
             <div className='intro-content'>
                 <div className='hello'>Hello,</div>
                 <div className='intro-text'>I'm <span className='intro-name'>Gionata</span> <br />Senior Android Developer</div>
-                <p className='intro-para'>I am a skilled mobile Developer with experience in bla bla bla and uh uh uh what a nice persone here!</p>
-                <Link><button className='btn'><img src={btnImg} alt='Hire Me' className='btn-img' />Hire Me</button></Link>
+                {/*}<Link><button className='btn'><img src={btnImg} alt='Hire Me' className='btn-img' />Hire Me</button></Link>{*/}
             </div>
         </section>
     );

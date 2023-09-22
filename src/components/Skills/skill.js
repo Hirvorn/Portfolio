@@ -1,4 +1,3 @@
-import React from 'react'
 import './skill.css';
 
 function Skill({ icon, title, description }) {

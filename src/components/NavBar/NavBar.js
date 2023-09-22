@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './NavBar.css';
 import logo from '../../assets/main_flower.png';
 import { Link } from 'react-scroll';
-import menu from '../../assets/menu.png'
+import menu from '../../assets/menu.png';
+import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 
 const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -19,7 +20,7 @@ const NavBar = () => {
             <button className='contact-me' onClick={() => {
                 document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
             }}>
-                <span>Contact Me</span>
+                <ChatBubbleOutlineIcon className='chat' /><span>Contact Me</span>
             </button>
 
             <img alt='Menu' src={menu} className='mobile-menu' onClick={() => setShowMenu(!showMenu)} />

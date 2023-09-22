@@ -5,6 +5,16 @@ import AirIcon from '@mui/icons-material/Air';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import BugReportIcon from '@mui/icons-material/BugReport';
 import SpeedIcon from '@mui/icons-material/Speed';
+import GroupsIcon from '@mui/icons-material/Groups';
+import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
+import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
+import LoopIcon from '@mui/icons-material/Loop';
+import RowingIcon from '@mui/icons-material/Rowing';
+import Diversity1Icon from '@mui/icons-material/Diversity1';
+import EditIcon from '@mui/icons-material/Edit';
+import SearchIcon from '@mui/icons-material/Search';
+import MovieFilterIcon from '@mui/icons-material/MovieFilter';
+import PsychologyIcon from '@mui/icons-material/Psychology';
 
 const HARD_SKILLS = [
     {
@@ -46,57 +56,58 @@ const HARD_SKILLS = [
 
 const SOFT_SKILLS = [
     {
-        icon: '',
+        icon: <GroupsIcon className='icon' />,
         title: 'Leadership and Team Management',
         description: 'Successfully led and motivated dynamic teams, establishing coding standards and best practices to improve code quality and maintainability. Mentored junior developers for professional growth.'
     },
     {
-        icon: '',
+        icon: <TipsAndUpdatesIcon className='icon' />,
         title: 'Problem Solving',
         description: 'Strong ability to identify and resolve technical challenges, ensuring seamless integration and enhancing user experiences.'
     },
     {
-        icon: '',
+        icon: <ConnectWithoutContactIcon className='icon' />,
         title: 'Communication',
         description: 'Excellent communication skills, both within cross-functional teams and with clients, fostering positive working relationships.'
     },
     {
-        icon: '',
+        icon: <LoopIcon className='icon' />,
         title: 'Continuous Improvement',
         description: 'Commitment to continuous professional and personal growth, proactively seeking opportunities to enhance skills and stay updated with industry trends'
     },
     {
-        icon: '',
+        icon: <RowingIcon className='icon' />,
         title: 'Independence and Proactivity',
         description: 'Demonstrated ability to take initiative and work independently, leading to successful project outcomes and client satisfaction.'
     },
     {
-        icon: '',
+        icon: <Diversity1Icon className='icon' />,
         title: 'Team Building',
         description: 'Proficient in building and managing collaborative teams, driving innovation and excellence in software development.'
     },
     {
-        icon: '',
+        icon: <EditIcon className='icon' />,
         title: 'Adaptability',
         description: 'The ability to adapt to evolving technologies and industry trends, as the Android ecosystem continuously changes.'
     },
     {
-        icon: '',
+        icon: <SearchIcon className='icon' />,
         title: 'Attention to Detail',
         description: 'Keen attention to detail for bug detection, code quality, and UI/UX refinement.'
     },
     {
-        icon: '',
+        icon: <MovieFilterIcon className='icon' />,
         title: 'Creativity',
         description: 'Creative thinking to find innovative solutions and enhance user experiences.'
     },
     {
-        icon: '',
+        icon: <PsychologyIcon className='icon' />,
         title: 'Critical Thinking',
         description: 'Critical thinking skills for evaluating and making decisions on technical and design choices.'
     }
 ];
 
 export const Values = {
-    HardSkills: HARD_SKILLS
+    HardSkills: HARD_SKILLS,
+    SoftSkills: SOFT_SKILLS
 };
