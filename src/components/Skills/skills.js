@@ -8,7 +8,7 @@ function Skills() {
         <section id='skills'>
             <div className='container'>
                 <span className='skill-title'>What I do</span>
-                <span className='skill-desc'>I am a skilled and passionate mobile developer with experience in Android</span>
+                <span className='skill-desc'>Experienced Android Developer who loves crafting awesome apps with Kotlin, collaborating with top brands, making APIs work like magic, and designing user-friendly interfaces while keeping things snappy!</span>
                 <div className='skill-bars'>
                     {
                         Values.HardSkills.map(

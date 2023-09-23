@@ -18,6 +18,13 @@
     vertical-align: middle;
 }
 
+.skill-bar-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
 .skill-bar-text>p {
     font-size: 0.9rem;
     font-weight: 200;

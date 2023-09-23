@@ -30,8 +30,8 @@
 }
 
 .navbar>.contact-me {
-    background: var(--dark-green);
-    color: var(--secondary-color);
+    background: var(--accent-color);
+    color: var(--dark-blue);
     border: none;
     display: flex;
     align-items: center;

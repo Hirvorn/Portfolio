@@ -18,6 +18,13 @@
     vertical-align: middle;
 }
 
+.soft-skill>.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
 .soft-skill>.text>p {
     font-size: 0.9rem;
     font-weight: 200;

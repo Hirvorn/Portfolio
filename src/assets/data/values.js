@@ -15,6 +15,22 @@ import EditIcon from '@mui/icons-material/Edit';
 import SearchIcon from '@mui/icons-material/Search';
 import MovieFilterIcon from '@mui/icons-material/MovieFilter';
 import PsychologyIcon from '@mui/icons-material/Psychology';
+import AlfaRomeoLogo from '../logo/alfa_romeo.png';
+import DodgeLogo from '../logo/dodge.png';
+import LaStampaLogo from '../logo/la_stampa.png';
+import CoripetLogo from '../logo/coripet.png';
+import DSLogo from '../logo/ds.png';
+import FiatLogo from '../logo/fiat.png';
+import JeepLogo from '../logo/jeep.png';
+import CitroenLogo from '../logo/citroen.png';
+import LanciaLogo from '../logo/lancia.png';
+import OpelLogo from '../logo/opel.png';
+import PeugeotLogo from '../logo/peugeot.png';
+import MaseratiLogo from '../logo/maserati.png';
+import StellantisLogo from '../logo/stellantis.svg';
+import BotteroLogo from '../logo/bottero.png';
+import RepowerLogo from '../logo/repower.png';
+import PingueenLogo from '../logo/pingueen.png';
 
 const HARD_SKILLS = [
     {
@@ -107,7 +123,75 @@ const SOFT_SKILLS = [
     }
 ];
 
+const LOGOS = [
+    {
+        icon: AlfaRomeoLogo,
+        label: 'Alfa Romeo'
+    },
+    {
+        icon: DodgeLogo,
+        label: 'Dodge'
+    },
+    {
+        icon: LaStampaLogo,
+        label: 'La Stampa'
+    },
+    {
+        icon: CoripetLogo,
+        label: 'Coripet'
+    },
+    {
+        icon: DSLogo,
+        label: 'DS'
+    },
+    {
+        icon: FiatLogo,
+        label: 'Fiat'
+    },
+    {
+        icon: JeepLogo,
+        label: 'Jeep'
+    },
+    {
+        icon: CitroenLogo,
+        label: 'Citroen'
+    },
+    {
+        icon: OpelLogo,
+        label: 'Opel'
+    },
+    {
+        icon: LanciaLogo,
+        label: 'Lancia'
+    },
+    {
+        icon: PeugeotLogo,
+        label: 'Peugeot'
+    },
+    {
+        icon: MaseratiLogo,
+        label: 'Maserati'
+    },
+    {
+        icon: StellantisLogo,
+        label: 'Stellantis'
+    },
+    {
+        icon: BotteroLogo,
+        label: 'Bottero'
+    },
+    {
+        icon: RepowerLogo,
+        label: 'Repower'
+    },
+    {
+        icon: PingueenLogo,
+        label: 'Pingueen'
+    }
+]
+
 export const Values = {
     HardSkills: HARD_SKILLS,
-    SoftSkills: SOFT_SKILLS
+    SoftSkills: SOFT_SKILLS,
+    Logos: LOGOS
 };
