@@ -60,3 +60,84 @@
     top: 48px;
     left: 259px;
 }
+
+.line1,
+.line2,
+.line3,
+.line4,
+.line5,
+.line6,
+.line7,
+.line8,
+.line9 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 3s linear forwards;
+}
+
+.small-circles {
+    opacity: 0;
+    animation: fadeIn 0.5s 3s ease-in-out forwards;
+}
+
+#flower-1 {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 3s 0.3s linear forwards;
+}
+
+#flower-2 {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 3s 0.3s linear forwards;
+}
+
+#flower-3 {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 3s 0.3s linear forwards;
+}
+
+#flower-4 {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 3s 0.3s linear forwards;
+}
+
+#flower-5 {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 3s 0.3s linear forwards;
+}
+
+#flower-6 {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 3s 0.3s linear forwards;
+}
+
+#flower-main {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 3s 0.3s linear forwards;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 2000;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
