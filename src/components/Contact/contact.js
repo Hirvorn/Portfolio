@@ -1,9 +1,8 @@
 import './contact.css';
-import FacebookIcon from '../../assets/facebook-icon.png';
-import TwitterIcon from '../../assets/twitter.png';
-import InstragramIcon from '../../assets/instagram.png';
+import LinkedInIcon from '../../assets/linkedin-icon.png';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import Resume from '../../assets/data/Gionata_Barale_Resume_web.pdf';
 
 function Contact() {
     const form = useRef();
@@ -29,10 +28,9 @@ function Contact() {
                 <input className='email' type='email' placeholder='Your Email' name='from_email' />
                 <textarea className='msg' name='message' rows='5' placeholder='Your Message' />
                 <button type='submit' value='Send' className='submit-btn'>Submit</button>
+                <a href={Resume} download='Gionata Barale resume.pdf' className='resume'>Download My Resume</a>
                 <div className='links'>
-                    <img src={FacebookIcon} alt='' className='link' />
-                    <img src={TwitterIcon} alt='' className='link' />
-                    <img src={InstragramIcon} alt='' className='link' />
+                    <img src={LinkedInIcon} alt='' className='link' onClick={() => window.open('https://www.linkedin.com/in/gionata-barale-a432b1126', '_blank')} />
                 </div>
             </form>
         </div>

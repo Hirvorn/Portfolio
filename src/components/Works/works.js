@@ -11,7 +11,7 @@ function Works() {
                 {
                     Values.Logos.map(
                         (logo) =>
-                            <img src={logo.icon} alt={logo.label} />
+                            <img key={logo.label} src={logo.icon} alt={logo.label} />
                     )
                 }
             </div>

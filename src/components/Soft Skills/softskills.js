@@ -13,6 +13,7 @@ function SoftSkills() {
                         Values.SoftSkills.map(
                             (softskill) =>
                                 <SoftSkill
+                                    key={softskill.title}
                                     icon={softskill.icon}
                                     title={softskill.title}
                                     description={softskill.description}

@@ -14,6 +14,7 @@ function Skills() {
                         Values.HardSkills.map(
                             (skill) =>
                                 <Skill
+                                    key={skill.title}
                                     icon={skill.icon}
                                     image_label={skill.image_label}
                                     title={skill.title}

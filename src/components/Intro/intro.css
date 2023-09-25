@@ -38,6 +38,11 @@
     letter-spacing: 1px;
 }
 
+.intro-secondary-text {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
 .btn {
     background: white;
     margin: 1rem 0;

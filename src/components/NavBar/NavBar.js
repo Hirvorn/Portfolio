@@ -13,10 +13,10 @@ const NavBar = () => {
             <img alt='Logo' src={logo} className='logo' />
             <div className='desktop-menu'>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-40} duration={500} className='list-item'>Home</Link>
-                <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-40} duration={500} className='list-item'>About</Link>
-                <Link activeClass='active' to='soft-skills' spy={true} smooth={true} offset={-40} duration={500} className='list-item'>Soft</Link>
-                <Link activeClass='active' to='works' spy={true} smooth={true} offset={-40} duration={500} className='list-item'>Portfolio</Link>
-                <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-40} duration={500} className='list-item'>Contact</Link>
+                <Link activeClass='active' to='skills' spy={true} smooth={true} offset={0} duration={500} className='list-item'>About</Link>
+                <Link activeClass='active' to='soft-skills' spy={true} smooth={true} offset={0} duration={500} className='list-item'>Soft</Link>
+                <Link activeClass='active' to='works' spy={true} smooth={true} offset={0} duration={500} className='list-item'>Portfolio</Link>
+                <Link activeClass='active' to='contact' spy={true} smooth={true} offset={0} duration={500} className='list-item'>Contact</Link>
             </div>
             <button className='contact-me' onClick={() => {
                 document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });

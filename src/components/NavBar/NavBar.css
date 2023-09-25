@@ -41,6 +41,10 @@
     cursor: pointer;
 }
 
+.navbar>.contact-me:hover {
+    background-color: var(--accent-color-pressed);
+}
+
 .navbar>.contact-me>.chat {
     padding-right: 0.5rem;
     height: 2rem;

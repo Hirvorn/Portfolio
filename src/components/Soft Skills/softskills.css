@@ -1,6 +1,8 @@
 #soft-skills {
     background-color: var(--primary-color);
+    padding-top: 3rem;
     padding-bottom: 3rem;
+    min-height: 100vh;
 }
 
 #soft-skills>.container {
