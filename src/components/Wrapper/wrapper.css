@@ -141,3 +141,47 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 480px) {
+
+    .lines,
+    .small-circles,
+    .flower-3,
+    .flower-6 {
+        display: none;
+    }
+
+    .flower-1 {
+        position: relative;
+        top: -70px;
+        left: -70px;
+    }
+
+    .flower-2 {
+        position: relative;
+        top: 730px;
+        left: -280px;
+    }
+
+    .flower-4 {
+        position: relative;
+        top: 48px;
+        left: -620px;
+    }
+
+
+    .flower-5 {
+        position: relative;
+        top: 550px;
+        left: -720px;
+    }
+
+    .flower-main {
+        position: relative;
+        top: 350px;
+        left: 120px;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+    }
+}

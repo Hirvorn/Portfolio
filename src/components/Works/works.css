@@ -42,6 +42,12 @@
     margin: 1rem;
     background-color: var(--secondary-color);
     border-radius: 0.5rem;
+    transition: padding 0.3s;
+}
+
+#works>.images>img:hover {
+    padding: 0.35rem;
+    transition: padding 0.3s;
 }
 
 @media screen and (max-width:585px) {
