@@ -32,7 +32,7 @@ import BotteroLogo from '../logo/bottero.png';
 import RepowerLogo from '../logo/repower.png';
 import PingueenLogo from '../logo/pingueen.png';
 
-const HARD_SKILLS = [
+const HARD_SKILLS_MOBILE = [
     {
         icon: <AndroidIcon className='icon' />,
         title: 'Senior Android Developer',
@@ -52,7 +52,10 @@ const HARD_SKILLS = [
         icon: <AirIcon className='icon' />,
         title: 'Reactive Programming',
         description: 'Great with reactive programming and concurrency design for managing asynchronous data streams.'
-    },
+    }
+];
+
+const HARD_SKILLS_OTHERS = [
     {
         icon: <GitHubIcon className='icon' />,
         title: 'Git and Version Control',
@@ -70,7 +73,7 @@ const HARD_SKILLS = [
     }
 ];
 
-const SOFT_SKILLS = [
+const SOFT_SKILLS_MOBILE = [
     {
         icon: <GroupsIcon className='icon' />,
         title: 'Leadership and Team Management',
@@ -90,7 +93,10 @@ const SOFT_SKILLS = [
         icon: <LoopIcon className='icon' />,
         title: 'Continuous Improvement',
         description: 'Commitment to continuous professional and personal growth, proactively seeking opportunities to enhance skills and stay updated with industry trends'
-    },
+    }
+];
+
+const SOFT_SKILLS_OTHERS = [
     {
         icon: <RowingIcon className='icon' />,
         title: 'Independence and Proactivity',
@@ -121,7 +127,7 @@ const SOFT_SKILLS = [
         title: 'Critical Thinking',
         description: 'Critical thinking skills for evaluating and making decisions on technical and design choices.'
     }
-];
+]
 
 const LOGOS = [
     {
@@ -191,7 +197,9 @@ const LOGOS = [
 ]
 
 export const Values = {
-    HardSkills: HARD_SKILLS,
-    SoftSkills: SOFT_SKILLS,
+    HardSkillsMobile: HARD_SKILLS_MOBILE,
+    HardSkillsOthers: HARD_SKILLS_OTHERS,
+    SoftSkillsMobile: SOFT_SKILLS_MOBILE,
+    SoftSkillsOthers: SOFT_SKILLS_OTHERS,
     Logos: LOGOS
 };

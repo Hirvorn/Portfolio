@@ -23,6 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    text-overflow: ellipsis;
 }
 
 .soft-skill>.text>p {
@@ -51,4 +52,12 @@
     .skill-bar-text>h2 {
         font-size: 5vw;
     }
+}
+
+@media screen and (max-width:380px) {
+
+    .soft-skill>.text>h2 {
+        font-size: 5vw;
+    }
+
 }
