@@ -131,36 +131,45 @@ const SOFT_SKILLS_OTHERS = [
 
 const LOGOS = [
     {
-        icon: AlfaRomeoLogo,
-        label: 'Alfa Romeo'
+        icon: StellantisLogo,
+        label: 'Stellantis'
     },
-    {
-        icon: DodgeLogo,
-        label: 'Dodge'
-    },
-    {
-        icon: LaStampaLogo,
-        label: 'La Stampa'
-    },
-    {
-        icon: CoripetLogo,
-        label: 'Coripet'
-    },
-    {
-        icon: DSLogo,
-        label: 'DS'
-    },
-    {
-        icon: FiatLogo,
-        label: 'Fiat'
-    },
+
     {
         icon: JeepLogo,
         label: 'Jeep'
     },
+
+    {
+        icon: MaseratiLogo,
+        label: 'Maserati'
+    },
+
+    {
+        icon: DodgeLogo,
+        label: 'Dodge'
+    },
+
+    {
+        icon: FiatLogo,
+        label: 'Fiat'
+    },
+
+    {
+        icon: PeugeotLogo,
+        label: 'Peugeot'
+    },
+    {
+        icon: AlfaRomeoLogo,
+        label: 'Alfa Romeo'
+    },
     {
         icon: CitroenLogo,
         label: 'Citroen'
+    },
+    {
+        icon: DSLogo,
+        label: 'DS'
     },
     {
         icon: OpelLogo,
@@ -171,24 +180,20 @@ const LOGOS = [
         label: 'Lancia'
     },
     {
-        icon: PeugeotLogo,
-        label: 'Peugeot'
-    },
-    {
-        icon: MaseratiLogo,
-        label: 'Maserati'
-    },
-    {
-        icon: StellantisLogo,
-        label: 'Stellantis'
-    },
-    {
-        icon: BotteroLogo,
-        label: 'Bottero'
+        icon: LaStampaLogo,
+        label: 'La Stampa'
     },
     {
         icon: RepowerLogo,
         label: 'Repower'
+    },
+    {
+        icon: CoripetLogo,
+        label: 'Coripet'
+    },
+    {
+        icon: BotteroLogo,
+        label: 'Bottero'
     },
     {
         icon: PingueenLogo,
