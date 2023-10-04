@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './NavBar.css';
 import logo from '../../assets/main_flower.png';
 import { Link } from 'react-scroll';
-import MenuIcon from '@mui/icons-material/Menu';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
+import { Rotate as Hamburger } from 'hamburger-react';
 
 const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -24,8 +24,10 @@ const NavBar = () => {
                 <ChatBubbleOutlineIcon className='chat' /><span>Contact Me</span>
             </button>
 
-            <MenuIcon id='mobile-menu' onClick={() => setShowMenu(!showMenu)} />
-            <div className='mobile-menu-list' style={{ display: showMenu ? 'flex' : 'none' }}>
+            <span className='mobile-menu'>
+                <Hamburger className='mobile-menu' toggled={showMenu} onToggle={toggled => { setShowMenu(toggled) }} rounded />
+            </span>
+            <div className='mobile-menu-list' style={{ visibility: showMenu ? 'visible' : 'hidden', pointerEvents: showMenu ? 'all' : 'none', opacity: showMenu ? '1' : '0' }}>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-40} duration={500} className='item' onClick={() => setShowMenu(false)}>Home</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-40} duration={500} className='item' onClick={() => setShowMenu(false)}>About</Link>
                 <Link activeClass='active' to='soft-skills' spy={true} smooth={true} offset={-40} duration={500} className='item' onClick={() => setShowMenu(false)}>Soft</Link>

@@ -61,7 +61,7 @@
     border-bottom: 3px solid var(--accent-color);
 }
 
-#mobile-menu {
+.mobile-menu {
     display: none;
     width: 3rem;
     height: 3rem;
@@ -80,6 +80,7 @@
     flex-direction: column;
     background-color: var(--tertiary-color);
     color: var(--secondary-color);
+    transition: opacity 0.3s ease-in;
 }
 
 .mobile-menu-list>.item {
@@ -90,7 +91,7 @@
     padding-bottom: 0.5rem;
 }
 
-.mobile-menu-list-item:hover {
+.mobile-menu-list>.item:hover {
     color: var(--accent-color);
 }
 
@@ -101,7 +102,7 @@
         display: none;
     }
 
-    #mobile-menu {
+    .mobile-menu {
         display: flex;
     }
 }
