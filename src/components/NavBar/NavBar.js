@@ -30,7 +30,7 @@ const NavBar = () => {
             <div className='mobile-menu-list' style={{ visibility: showMenu ? 'visible' : 'hidden', pointerEvents: showMenu ? 'all' : 'none', opacity: showMenu ? '1' : '0' }}>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-40} duration={500} className='item noSelect' onClick={() => setShowMenu(false)}>Home</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-40} duration={500} className='item noSelect' onClick={() => setShowMenu(false)}>About</Link>
-                <Link activeClass='active' to='soft-skills' spy={true} smooth={true} offset={-40} duration={500} className='item noSelect' onClick={() => setShowMenu(false)}>Soft</Link>
+                <Link activeClass='active' to='soft-skills' spy={true} smooth={true} offset={-40} duration={500} className='item noSelect' onClick={() => setShowMenu(false)}>Soft Skills</Link>
                 <Link activeClass='active' to='works' spy={true} smooth={true} offset={-40} duration={500} className='item noSelect' onClick={() => setShowMenu(false)}>Portfolio</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-40} duration={500} className='item noSelect' onClick={() => setShowMenu(false)}>Contact</Link>
             </div>
