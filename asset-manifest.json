@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.53668bb0.css",
-    "main.js": "/Portfolio/static/js/main.338b142c.js",
+    "main.js": "/Portfolio/static/js/main.c5b7aad4.js",
     "static/media/alfa_romeo.png": "/Portfolio/static/media/alfa_romeo.ac1fa3cbd7714c04c11f.png",
     "static/media/peugeot.png": "/Portfolio/static/media/peugeot.7a597bd1e1063a2733f0.png",
     "static/media/Gionata_Barale_Resume_web.pdf": "/Portfolio/static/media/Gionata_Barale_Resume_web.5453a3d7199ddbd17820.pdf",
@@ -23,10 +23,10 @@
     "static/media/main_flower.png": "/Portfolio/static/media/main_flower.8f2c6e79962ba2ccb4cf.png",
     "index.html": "/Portfolio/index.html",
     "main.53668bb0.css.map": "/Portfolio/static/css/main.53668bb0.css.map",
-    "main.338b142c.js.map": "/Portfolio/static/js/main.338b142c.js.map"
+    "main.c5b7aad4.js.map": "/Portfolio/static/js/main.c5b7aad4.js.map"
   },
   "entrypoints": [
     "static/css/main.53668bb0.css",
-    "static/js/main.338b142c.js"
+    "static/js/main.c5b7aad4.js"
   ]
 }
