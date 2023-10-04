@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ae4c8243.css",
-    "main.js": "/Portfolio/static/js/main.3ca96b33.js",
+    "main.css": "/Portfolio/static/css/main.53668bb0.css",
+    "main.js": "/Portfolio/static/js/main.338b142c.js",
     "static/media/alfa_romeo.png": "/Portfolio/static/media/alfa_romeo.ac1fa3cbd7714c04c11f.png",
     "static/media/peugeot.png": "/Portfolio/static/media/peugeot.7a597bd1e1063a2733f0.png",
     "static/media/Gionata_Barale_Resume_web.pdf": "/Portfolio/static/media/Gionata_Barale_Resume_web.5453a3d7199ddbd17820.pdf",
@@ -22,11 +22,11 @@
     "static/media/coripet.png": "/Portfolio/static/media/coripet.e3b4eb2455d8f4e0e899.png",
     "static/media/main_flower.png": "/Portfolio/static/media/main_flower.8f2c6e79962ba2ccb4cf.png",
     "index.html": "/Portfolio/index.html",
-    "main.ae4c8243.css.map": "/Portfolio/static/css/main.ae4c8243.css.map",
-    "main.3ca96b33.js.map": "/Portfolio/static/js/main.3ca96b33.js.map"
+    "main.53668bb0.css.map": "/Portfolio/static/css/main.53668bb0.css.map",
+    "main.338b142c.js.map": "/Portfolio/static/js/main.338b142c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae4c8243.css",
-    "static/js/main.3ca96b33.js"
+    "static/css/main.53668bb0.css",
+    "static/js/main.338b142c.js"
   ]
 }
