@@ -85,3 +85,16 @@
         display: block;
     }
 }
+
+@media screen and (max-width:480px) {
+    .intro-content {
+        width: auto;
+        animation: fadeIn 1s 2s linear forwards;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .hello {
+        font-size: 12vw;
+    }
+}
