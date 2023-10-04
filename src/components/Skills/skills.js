@@ -66,7 +66,7 @@ function Skills() {
                         </div>
                     )
                 }
-                <button className='show-more' onClick={show}>Show More</button>
+                <button className='show-more' onClick={show}>{(open) ? 'Show Less' : 'Show More'}</button>
             </div>
         </section>
     )

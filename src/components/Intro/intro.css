@@ -1,5 +1,6 @@
 #intro {
     width: 100vw;
+    height: 100vh;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -72,13 +73,9 @@
     }
 }
 
-@media screen and (max-width:840px) {
+@media screen and (max-width:900px) {
     .intro-content {
         font-size: 10vw;
-    }
-
-    .hello {
-        font-size: 4.5rem;
     }
 
     .carriage {
@@ -86,15 +83,15 @@
     }
 }
 
+@media screen and (min-width:481px) and (max-width:1079px) {
+    #intro {
+        height: 100vh;
+    }
+}
+
 @media screen and (max-width:480px) {
     .intro-content {
         width: auto;
         animation: fadeIn 1s 2s linear forwards;
-    }
-}
-
-@media screen and (max-width:360px) {
-    .hello {
-        font-size: 12vw;
     }
 }

@@ -5,7 +5,7 @@ import { useState } from 'react';
 import useWindowSize from '../../utils/useWindowSize';
 
 function SoftSkills() {
-    const [open, setOpen] = useState(window.innerHeight > 720);
+    const [open, setOpen] = useState(window.innerWidth > 720);
     const show = () => setOpen((prevState) => !prevState);
 
     const size = useWindowSize();
@@ -62,7 +62,7 @@ function SoftSkills() {
                         </div>
                     )
                 }
-                <button className='show-more' onClick={show}>Show More</button>
+                <button className='show-more' onClick={show}>{open ? 'Show Less' : 'Show More'}</button>
             </div>
         </section>
     )

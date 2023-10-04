@@ -4,6 +4,9 @@
     width: 1440px;
     height: 1024px;
     margin: 0 auto;
+    bottom: 0;
+    top: 100%;
+    transform: translateY(-100%);
 }
 
 .lines {
@@ -139,6 +142,39 @@
 
     to {
         opacity: 1;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:1079px) {
+    #wrapper {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width:681px) and (max-width:900px) {
+    #wrapper {
+        left: -5rem;
+    }
+}
+
+@media screen and (min-width:681px) and (max-width:750px) {
+    #wrapper {
+        left: -10rem;
+    }
+}
+
+
+@media screen and (min-width:561px) and (max-width:680px) {
+    #wrapper {
+        left: -15rem;
+    }
+}
+
+
+@media screen and (min-width:481px) and (max-width:560px) {
+    #wrapper {
+        left: -20rem;
     }
 }
 
