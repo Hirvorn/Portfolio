@@ -3,14 +3,16 @@ import './NavBar.css';
 import logo from '../../assets/main_flower.png';
 import { Link } from 'react-scroll';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
-import { Rotate as Hamburger } from 'hamburger-react';
+import { Cross as Hamburger } from 'hamburger-react';
 
 const NavBar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
     return (
         <nav className='navbar'>
-            <img alt='Logo' src={logo} className='logo' />
+            <img alt='Logo' src={logo} className='logo noSelect' onClick={() => {
+                document.getElementById('intro').scrollIntoView({ behavior: 'smooth' });
+            }} />
             <div className='desktop-menu'>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-40} duration={500} className='list-item noSelect'>Home</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={0} duration={500} className='list-item noSelect'>About</Link>
@@ -25,7 +27,7 @@ const NavBar = () => {
             </button>
 
             <span className='mobile-menu noSelect'>
-                <Hamburger className='mobile-menu' toggled={showMenu} onToggle={toggled => { setShowMenu(toggled) }} rounded />
+                <Hamburger toggled={showMenu} onToggle={toggled => { setShowMenu(toggled) }} rounded />
             </span>
             <div className='mobile-menu-list' style={{ visibility: showMenu ? 'visible' : 'hidden', pointerEvents: showMenu ? 'all' : 'none', opacity: showMenu ? '1' : '0' }}>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-40} duration={500} className='item noSelect' onClick={() => setShowMenu(false)}>Home</Link>
